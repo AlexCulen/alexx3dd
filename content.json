@@ -1,0 +1,48 @@
+{
+  "brand": "ALEX3D",
+  "hero": {
+    "tagline": "IDEAS QUE TOMAN", "accent": "FORMA.",
+    "text": "Impresión 3D de calidad para hacer únicos tus espacios, tus cosas y tus ideas.",
+    "btn1": "VER PRODUCTOS", "btn2": "PEDÍ ALGO PERSONALIZADO",
+    "image": "media/hero-leon.jpg",
+    "cardTitle": "CALIDAD", "cardTitle2": "CAPA POR CAPA",
+    "cardText": "Precisión en cada detalle. Materiales de primera para resultados únicos.",
+    "cardTag": "LAYER 084"
+  },
+  "features": [
+    {"icon": "box", "t": "Diseños únicos", "d": "Cada pieza es diseñada con detalle y dedicación."},
+    {"icon": "shield", "t": "Calidad premium", "d": "Materiales de alta calidad para mejores terminaciones."},
+    {"icon": "clock", "t": "Hecho a pedido", "d": "Impreso especialmente para vos."},
+    {"icon": "truck", "t": "Envíos a todo el país", "d": "Seguro, rápido y con seguimiento."}
+  ],
+  "categories": [
+    {"id": "deco", "icon": "flower", "name": "Deco", "desc": "Transformá tu espacio"},
+    {"id": "organizadores", "icon": "box", "name": "Organizadores", "desc": "Orden que se ve bien"},
+    {"id": "llaveros", "icon": "key", "name": "Llaveros", "desc": "Pequeños detalles, gran estilo"},
+    {"id": "figuras", "icon": "shapes", "name": "Figuras", "desc": "Tus personajes favoritos en 3D"},
+    {"id": "accesorios", "icon": "phone", "name": "Accesorios", "desc": "Diseñados para el día a día"},
+    {"id": "personalizados", "icon": "sparkle", "name": "Personalizados", "desc": "Lo que imaginás, lo creamos"}
+  ],
+  "products": [
+    {"id": "p1", "name": "León low poly", "cat": "figuras", "price": 0, "desc": "Figura decorativa con base, impresa capa por capa.", "image": "media/hero-leon.jpg", "video": "", "featured": true, "hidden": false},
+    {"id": "p2", "name": "Calavera low poly", "cat": "figuras", "price": 0, "desc": "Calavera facetada en color a elección.", "image": "media/idea-calavera.jpg", "video": "", "featured": true, "hidden": false},
+    {"id": "p3", "name": "Llavero personalizado", "cat": "llaveros", "price": 0, "desc": "Con tu nombre, logo o diseño.", "image": "", "video": "", "featured": true, "hidden": false},
+    {"id": "p4", "name": "Organizador de escritorio", "cat": "organizadores", "price": 0, "desc": "Para lapiceras, cables y objetos chicos.", "image": "", "video": "", "featured": false, "hidden": false}
+  ],
+  "how": {
+    "title": "¿CÓMO FUNCIONA", "accent": "LA IMPRESIÓN 3D?",
+    "text": "Convertimos un diseño digital en un objeto real, capa por capa, con precisión milimétrica.",
+    "btn": "CONOCÉ MÁS",
+    "steps": [
+      {"t": "1. Diseño", "d": "Creamos o elegís el modelo 3D."},
+      {"t": "2. Impresión", "d": "La impresora construye capa por capa."},
+      {"t": "3. Acabado", "d": "Revisamos y perfeccionamos cada detalle."}
+    ]
+  },
+  "cta": {"title": "¿TENÉS UNA", "accent": "IDEA?", "text": "Creamos lo que imaginás. Escribinos y lo hagamos realidad, en 3D.", "btn": "PEDÍ TU DISEÑO", "image": "media/idea-calavera.jpg"},
+  "custom": {"title": "PERSONALIZADOS", "text": "Contanos qué querés: un llavero con tu nombre, una figura, un repuesto o una pieza a medida. Te respondemos con una propuesta y un presupuesto."},
+  "about": {"title": "SOBRE MÍ", "text": "Soy Alex, diseño e imprimo piezas en 3D. Cada trabajo se hace con dedicación, materiales de calidad y atención al detalle.", "image": ""},
+  "sections": [],
+  "contact": {"wa": "5491124007231", "phone": "11 2400-7231", "email": "alex3ddinfo@gmail.com", "city": "Buenos Aires, Argentina", "ig": "alexx3dd"},
+  "footerTag": "Ideas que toman forma."
+}
