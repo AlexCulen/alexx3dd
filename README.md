@@ -20,10 +20,12 @@ GitHub Pages publica HTML/CSS/JS estáticos. No puede guardar de forma segura un
 ## Uso del administrador
 - Ingresá en `admin.html` con el usuario creado en Supabase.
 - Podés agregar, editar, publicar/ocultar y borrar productos.
-- Subí fotos JPG, PNG, WEBP o GIF de hasta 5 MB.
+- Subí varias fotos (JPG, PNG, WEBP, GIF) y videos MP4, WebM u OGG, de hasta 100 MB por archivo. La tienda los muestra en un carrusel por producto.
 - Los cambios se guardan en Supabase y se reflejan en la tienda.
 
 ## Límites y seguridad
+- Las descripciones admiten hasta 5.000 caracteres.
+- Los archivos multimedia admiten hasta 100 MB por archivo. Para archivos mayores a 6 MB se utiliza carga reanudable TUS. En Supabase Dashboard → Storage → Settings, configurá el límite global de tamaño de archivo en 100 MB o en un valor superior al tamaño que necesites. El máximo real también depende del plan de Supabase; si el plan no permite 100 MB, reducí el límite del bucket y el del formulario a un valor permitido.
 - El usuario administrador no está codificado en el HTML: la sesión la gestiona Supabase Auth.
 - La clave `anon/publishable` se usa en frontend y no es un secreto; la seguridad depende de RLS y las políticas de Storage.
 - Este SQL concede administración a cualquier usuario autenticado. Para una tienda real, deshabilitá el registro público y creá solo usuarios administradores confiables. Para múltiples roles, agregá una tabla de roles y políticas que validen el rol de administrador.
